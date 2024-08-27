@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    /*Este margin es porque por defecto la página viene con un margin que molesta*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*Cambio de tipografía para que se vea como en la guía*/
+}
+
+header {
+    width: 100vw;
+    position: absolute;
+    background-color: rgb(69, 69, 69);
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+}
