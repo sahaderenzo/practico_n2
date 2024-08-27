@@ -78,7 +78,7 @@ body {
     left: 5px;
     background-color: rgb(201, 255, 240);
     padding: 10px 10px;
-    padding-right: 50vw;
+    padding-right: 49vw;
 }
 
 .section44_p {
@@ -123,4 +123,19 @@ body {
     blockquote {
         font-size: 12px;
     }
+}
+
+/*4.6*/
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.grid_item {
+    background-color: rgb(136, 160, 220);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
 }
