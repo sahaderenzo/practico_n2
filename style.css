@@ -139,3 +139,39 @@ body {
     text-align: center;
     padding: 2px;
 }
+
+/*4.7*/
+@keyframes movimiento {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(30vw);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.mover {
+    animation: movimiento 3s infinite ease;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 100px;
+}
+
+.animacion {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    transition: 1s;
+    /*Le puse este transition para que cuando vuelva de azul a rojo también sea mas soft*/
+}
+
+.animacion:hover {
+    transition: 1s;
+    background-color: blue;
+}
