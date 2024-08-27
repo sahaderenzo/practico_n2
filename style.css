@@ -70,3 +70,27 @@ body {
     border-width: 4px;
     background-color: rgb(255, 212, 169);
 }
+
+/*4.4*/
+.section44_div_rel {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    background-color: rgb(201, 255, 240);
+    padding: 10px 10px;
+}
+
+.section44_p {
+    font-size: 11px;
+    margin: 0;
+}
+
+.section44_div_rel_abs {
+    position: absolute;
+    background-color: rgb(34, 150, 117);
+    border-radius: 5px;
+    padding: 8px 5px;
+    top: 10px;
+    left: 42vw;
+    color: rgb(255, 255, 255);
+}
