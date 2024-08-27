@@ -78,6 +78,7 @@ body {
     left: 5px;
     background-color: rgb(201, 255, 240);
     padding: 10px 10px;
+    padding-right: 50vw;
 }
 
 .section44_p {
@@ -93,4 +94,33 @@ body {
     top: 10px;
     left: 42vw;
     color: rgb(255, 255, 255);
+}
+
+/*4.5*/
+@media screen and (width < 768px) {
+    body {
+        background-color: rgb(201, 177, 212);
+    }
+
+    .header_h1 {
+        font-size: 20px;
+    }
+
+    .section44_div_rel {
+        top: 0;
+        left: 0;
+        padding-right: 50vw;
+    }
+
+    .section_h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    blockquote {
+        font-size: 12px;
+    }
 }
